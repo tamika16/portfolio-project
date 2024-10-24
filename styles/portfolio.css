@@ -41,6 +41,11 @@ h4 {
   line-height: 16px;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 hr {
   max-width: 200px;
   margin: 0;
@@ -97,6 +102,19 @@ img {
   transition: 0.25s ease-in-out;
 }
 
+.more-btn-branding {
+  background-color: #ffffff;
+  border-color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.more-btn-branding:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 0.25s ease-in-out;
+}
+
 .main-content {
   display: block;
   margin: 0 auto;
@@ -147,6 +165,18 @@ img {
   margin-top: 20px;
   max-width: 750px;
   text-align: center;
+}
+
+.more-link-container {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 775px;
+}
+
+.arrow-icon {
+  color: #000000;
+  font-size: 14px;
 }
 
 @media (max-width: 600px) {
