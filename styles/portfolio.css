@@ -63,9 +63,8 @@ img {
 .btn-branding {
   background: #ffffff;
   font-weight: bold;
-  line-height: 28px;
   margin-top: 30px;
-  padding: 8px;
+  font-size: 14px;
 }
 
 .btn-branding:hover {
@@ -97,6 +96,19 @@ img {
   margin: 0 auto;
   max-width: 750px;
   text-align: center;
+}
+
+.project-desc {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f3f3f3ab;
+}
+
+.project-img {
+  border: #000000 solid 1px;
+  border-radius: 4px;
+  padding: 15px;
+  background-color: #f3f3f3ab;
 }
 
 @media (max-width: 600px) {
