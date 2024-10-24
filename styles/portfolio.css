@@ -7,7 +7,6 @@ body {
   font-family: var(--default-font-family);
   font-weight: 400;
   font-style: normal;
-  margin: 10px;
 }
 
 h1 {
@@ -18,6 +17,28 @@ h1 {
   line-height: 44px;
 }
 
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+}
+
+hr {
+  max-width: 200px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
 .hero {
   background-color: #000000;
   color: #ffffff;
@@ -25,7 +46,6 @@ h1 {
   display: block;
   margin: 0 auto;
   padding: 40px 0;
-  border-radius: 20px;
 }
 
 .hero-greeting {
@@ -51,4 +71,18 @@ h1 {
 .btn-branding:hover {
   border-color: #ffffff;
   transition: 0.25s ease-in-out;
+}
+
+.main-content {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 775px;
+}
+
+.recent-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: center;
 }
