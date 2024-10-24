@@ -129,6 +129,13 @@ img {
   text-align: center;
 }
 
+.more-link-container {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 775px;
+}
+
 .project-desc {
   padding: 10px;
   border-radius: 4px;
@@ -167,18 +174,6 @@ img {
   text-align: center;
 }
 
-.more-link-container {
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-  max-width: 775px;
-}
-
-.arrow-icon {
-  color: #000000;
-  font-size: 14px;
-}
-
 @media (max-width: 600px) {
   h1,
   .about-h1 {
@@ -198,7 +193,10 @@ img {
   }
 
   .sub-container,
-  .projects-container {
+  .projects-container,
+  .main-content,
+  .recent-container,
+  .more-link-container {
     margin-left: 10px;
     margin-right: 10px;
   }
