@@ -73,6 +73,18 @@ img {
   transition: 0.25s ease-in-out;
 }
 
+.project-btn-branding {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.project-btn-branding:hover {
+  border-color: #000000;
+  transition: 0.25s ease-in-out;
+}
+
 .main-content {
   display: block;
   margin: 0 auto;
@@ -85,4 +97,21 @@ img {
   margin: 0 auto;
   max-width: 750px;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h3,
+  .hero-greeting {
+    font-size: 16px;
+  }
+
+  h4,
+  .project-text,
+  .hero-text {
+    font-size: 14px;
+  }
 }
