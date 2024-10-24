@@ -167,7 +167,8 @@ img {
     font-size: 14px;
   }
 
-  .about-container {
+  .sub-container,
+  .projects-container {
     margin-left: 10px;
     margin-right: 10px;
   }
