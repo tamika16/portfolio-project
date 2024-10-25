@@ -68,7 +68,7 @@ img {
   text-align: center;
   display: block;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 50px;
   padding: 75px 0;
 }
 
@@ -158,7 +158,7 @@ img {
 .sub-container {
   display: block;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 50px;
   max-width: 800px;
   padding: 20px;
   background-color: #000000;
@@ -183,6 +183,14 @@ img {
   padding: 15px;
   border-radius: 5px;
   border: 1px solid #000000;
+}
+
+.all-container {
+  margin-bottom: 150px;
+}
+
+.nav-container {
+  background-color: #ffffff;
 }
 
 nav {
@@ -212,7 +220,6 @@ nav a {
 }
 
 footer {
-  margin-top: 75px;
   background-color: #000000;
 }
 
@@ -223,7 +230,7 @@ footer {
 }
 
 .social-links {
-  font-size: 35px;
+  font-size: 25px;
   color: #ffffff;
 }
 
