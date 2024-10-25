@@ -211,6 +211,22 @@ nav a {
   color: #ffffff;
 }
 
+footer {
+  margin-top: 75px;
+  background-color: #000000;
+}
+
+.mailto-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.social-links {
+  font-size: 35px;
+  color: #ffffff;
+}
+
 @media (max-width: 600px) {
   h1,
   .about-h1 {
