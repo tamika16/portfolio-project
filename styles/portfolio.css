@@ -17,19 +17,6 @@ h1 {
   line-height: 44px;
 }
 
-.about-h1 {
-  font-size: 29px;
-}
-
-.about-h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.project-h1 {
-  font-size: 32px;
-}
-
 h3 {
   font-size: 22px;
   font-weight: bold;
@@ -42,8 +29,13 @@ h4 {
 }
 
 a {
-  text-decoration: none;
   color: #000000;
+}
+
+a:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: all 0.2s;
 }
 
 hr {
@@ -55,6 +47,19 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
+}
+
+.about-h1 {
+  font-size: 29px;
+}
+
+.about-h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.project-h1 {
+  font-size: 32px;
 }
 
 .hero {
@@ -166,7 +171,8 @@ img {
   background-color: #ffffff;
 }
 
-.projects-container {
+.projects-container,
+.contact-info {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
