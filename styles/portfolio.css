@@ -161,6 +161,10 @@ img {
   text-align: start;
 }
 
+.home-preview-img:hover {
+  transform: scale(1.05);
+}
+
 .about-container {
   text-align: start;
 }
