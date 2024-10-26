@@ -118,7 +118,7 @@ img {
 }
 
 .all-container {
-  margin-bottom: 150px;
+  margin-bottom: 0;
 }
 
 .heading-container {
@@ -210,6 +210,18 @@ img {
 
 footer {
   background-color: #000000;
+}
+
+.about-footer {
+  margin-top: 190px;
+}
+
+.projects-footer {
+  margin-top: 50px;
+}
+
+.contact-footer {
+  margin-top: 355px;
 }
 
 .mailto-link {
