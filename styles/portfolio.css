@@ -223,6 +223,12 @@ footer {
   color: #ffffff;
 }
 
+.footer-text,
+.footer-text a {
+  color: #ffffff;
+  font-size: 12px;
+}
+
 @media (max-width: 600px) {
   .heading-container h1 {
     font-size: 26px;
