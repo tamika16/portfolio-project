@@ -71,6 +71,8 @@ img {
 .hero {
   background-color: #000000;
   color: #ffffff;
+  max-width: 800px;
+  border-radius: 10px;
   text-align: center;
   display: block;
   margin: 0 auto;
